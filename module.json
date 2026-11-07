@@ -1,0 +1,19 @@
+{
+    "name": "school-api-v1",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.api_v1",
+    "type": "module",
+    "requires": [
+        "database.management"
+    ],
+    "exposes": [
+        "Plugins\\SchoolApiV1\\API\\Contracts\\LegacyApiContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "FROZEN adapter for the 53 legacy /api/** endpoints consumed by the React Native app and the ElimuGateway desktop client.",
+    "config": []
+}
